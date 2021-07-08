@@ -45,7 +45,7 @@ void Map::Update(float deltaTime)
 			SetColor(pGround[pastYIndex][pastXIndex], D3DCOLOR_ARGB(255, 255, 255, 255));
 
 		if (Input::GetInstance().KeyDown(VK_LBUTTON))
-			nowScene->obm.AddObject(new Units(D3DXVECTOR2(360 + 240 * xIndex, 216 * (yIndex - 2))));
+			nowScene->obm.AddObject(new AllyUnit(D3DXVECTOR2(360 + 240 * xIndex, 216 * (yIndex - 2))));
 
 		pastXIndex = xIndex;
 	}

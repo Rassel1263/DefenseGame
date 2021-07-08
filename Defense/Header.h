@@ -24,6 +24,8 @@
 #include "Collider2D.h"
 
 #include "Units.h"
+#include "AllyUnit.h"
+#include "EnemyUnit.h"
 
 #include "Map.h"
 
