@@ -400,6 +400,7 @@
     <ClCompile Include="SimpleShader.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Units.cpp" />
     <ClInclude Include="Collider2D.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Input.h" />
@@ -412,6 +413,7 @@
     <ClInclude Include="SingleTon.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Texture.h" />
+    <ClInclude Include="Units.h" />
     <None Include="DXUT\Optional\directx.ico" />
     <ClInclude Include="DXUT\Core\DXUT.h" />
     <ClInclude Include="DXUT\Core\DXUTenum.h" />

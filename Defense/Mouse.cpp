@@ -4,6 +4,8 @@
 Mouse::Mouse()
 {
 	spr.LoadAll(L"Assets/Sprites/mouse.png");
+
+	layer = 99;
 }
 
 void Mouse::Update(float deltaTime)

@@ -122,6 +122,7 @@
     <ClCompile Include="Mouse.cpp">
       <Filter>Object</Filter>
     </ClCompile>
+    <ClCompile Include="Units.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Collider2D.h">
@@ -164,6 +165,7 @@
     <ClInclude Include="Mouse.h">
       <Filter>Object</Filter>
     </ClInclude>
+    <ClInclude Include="Units.h" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
