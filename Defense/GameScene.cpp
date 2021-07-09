@@ -3,10 +3,12 @@
 
 void GameScene::Init()
 {
+	srand(time(NULL));
+
 	ShaderManager::GetInstance().CreateEffect("Simple", L"SimpleShader.fx", 0);
 
 	obm.AddObject(mouse = new Mouse());
-	obm.AddObject(new Map());
+	obm.AddObject(map = new Map());
 
 }
 

@@ -9,6 +9,10 @@ public:
 	std::vector<std::vector<Sprite>> pGround;
 	std::vector<std::vector<RenderInfo>> pRi;
 
+	std::vector<std::vector<bool>> useGround;
+
+	Sprite* pastGround = NULL;
+
 	int pastXIndex = 0;
 	int pastYIndex = 0;
 
