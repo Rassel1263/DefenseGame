@@ -391,6 +391,8 @@
   <ItemGroup>
     <ClCompile Include="AllyUnit.cpp" />
     <ClCompile Include="Collider2D.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EnemySpawner.cpp" />
     <ClCompile Include="EnemyUnit.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Input.cpp" />
@@ -405,6 +407,8 @@
     <ClCompile Include="Units.cpp" />
     <ClInclude Include="AllyUnit.h" />
     <ClInclude Include="Collider2D.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EnemySpawner.h" />
     <ClInclude Include="EnemyUnit.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Input.h" />

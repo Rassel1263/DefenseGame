@@ -4,6 +4,7 @@ class GameScene : public Scene
 {
 public:
 	Map* map = NULL;
+	EnemySpawner* enemySpawner;
 
 	virtual void Init() override;
 	virtual void Update(float deltaTime) override;

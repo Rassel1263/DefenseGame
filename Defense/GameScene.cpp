@@ -10,11 +10,14 @@ void GameScene::Init()
 	obm.AddObject(mouse = new Mouse());
 	obm.AddObject(map = new Map());
 
+	enemySpawner = new EnemySpawner();
 }
 
 void GameScene::Update(float deltaTime)
 {
 	Scene::Update(deltaTime);
+
+	enemySpawner->SpawnEnemy(deltaTime);
 }
 
 void GameScene::Render()

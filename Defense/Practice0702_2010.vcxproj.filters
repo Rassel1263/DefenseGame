@@ -131,6 +131,8 @@
     <ClCompile Include="EnemyUnit.cpp">
       <Filter>Object</Filter>
     </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp" />
+    <ClCompile Include="Effect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Collider2D.h">
@@ -182,6 +184,8 @@
     <ClInclude Include="EnemyUnit.h">
       <Filter>Object</Filter>
     </ClInclude>
+    <ClInclude Include="EnemySpawner.h" />
+    <ClInclude Include="Effect.h" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">

@@ -54,7 +54,7 @@ void Map::Update(float deltaTime)
 			SetColor(*pastGround, D3DCOLOR_ARGB(255, 255, 255, 255));
 
 		if (pastXIndex == xIndex && pastYIndex == yIndex) // 이전 땅과 선택한 땅이 같을 때(땅을 바꾸지 않았을 때)
-			SetColor(pGround[yIndex][xIndex], D3DCOLOR_ARGB(255, 0, 0, 0)); // 땅을 선택(색을 바꿔줌)
+			SetColor(pGround[yIndex][xIndex], D3DCOLOR_ARGB(255, 155, 155, 155)); // 땅을 선택(색을 바꿔줌)
 		else // 이전 땅과 다른 땅을 선택했을 때(선택한 땅이 바뀌었을 때) 
 			SetColor(pGround[pastYIndex][pastXIndex], D3DCOLOR_ARGB(255, 255, 255, 255)); // 이전 땅 선택 해제(색을 원래대로 돌려줌)
 
@@ -74,7 +74,7 @@ void Map::Update(float deltaTime)
 			SetColor(*pastGround, D3DCOLOR_ARGB(255, 255, 255, 255));
 
 		if (pastYIndex == yIndex)
-			SetColor(eGround[yIndex], D3DCOLOR_ARGB(255, 0, 0, 0));
+			SetColor(eGround[yIndex], D3DCOLOR_ARGB(255, 155, 155, 155));
 		else
 			SetColor(eGround[pastYIndex], D3DCOLOR_ARGB(255, 255, 255, 255));
 

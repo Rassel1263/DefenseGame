@@ -11,8 +11,6 @@ Mouse::Mouse()
 void Mouse::Update(float deltaTime)
 {
 	pos = Input::GetInstance().mousePos + Game::GetInstance().destCameraPos;
-
-	std::cout << Input::GetInstance().GetFixedMPos().x << "          " << Input::GetInstance().GetFixedMPos().y << std::endl;
 }
 
 void Mouse::Render()
