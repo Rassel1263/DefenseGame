@@ -63,3 +63,8 @@ void Input::SetMouse(MOUSE mouse, int n)
 {
 	mouseState[(int)mouse] = n;
 }
+
+D3DXVECTOR2 Input::GetFixedMPos()
+{
+	return D3DXVECTOR2(mousePos.x + Game::GetInstance().destCameraPos.x, mousePos.y + Game::GetInstance().destCameraPos.y);
+}

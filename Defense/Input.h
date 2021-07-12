@@ -34,4 +34,5 @@ public:
 	bool	KeyPress(int nKey);
 	bool    GetMouse(MOUSE mouse);
 	void     SetMouse(MOUSE mouse, int n);
+	D3DXVECTOR2 GetFixedMPos();
 };

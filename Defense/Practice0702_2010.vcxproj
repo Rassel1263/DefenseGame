@@ -389,7 +389,11 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AllyUnit.cpp" />
     <ClCompile Include="Collider2D.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EnemySpawner.cpp" />
+    <ClCompile Include="EnemyUnit.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="Map.cpp" />
@@ -400,7 +404,12 @@
     <ClCompile Include="SimpleShader.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Units.cpp" />
+    <ClInclude Include="AllyUnit.h" />
     <ClInclude Include="Collider2D.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EnemySpawner.h" />
+    <ClInclude Include="EnemyUnit.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="Map.h" />
@@ -412,6 +421,7 @@
     <ClInclude Include="SingleTon.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Texture.h" />
+    <ClInclude Include="Units.h" />
     <None Include="DXUT\Optional\directx.ico" />
     <ClInclude Include="DXUT\Core\DXUT.h" />
     <ClInclude Include="DXUT\Core\DXUTenum.h" />

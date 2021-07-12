@@ -23,6 +23,13 @@
 #include "Object.h"
 #include "Collider2D.h"
 
+#include "Effect.h"
+
+#include "Units.h"
+#include "AllyUnit.h"
+#include "EnemyUnit.h"
+#include "EnemySpawner.h"
+
 #include "Map.h"
 
 #include "Mouse.h"
